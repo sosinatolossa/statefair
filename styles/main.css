@@ -18,8 +18,13 @@ h1,h2,h3,h4,h5,h6 {
   letter-spacing: 2px;
 }
 
+#state-fair {
+    background-color: rgb(253, 241, 241);
+    margin: 20px;
+}
 .ticketBooth {
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .attractions {
@@ -27,12 +32,12 @@ h1,h2,h3,h4,h5,h6 {
     flex-direction: row;
     flex-wrap: nowrap;
     height: 30rem;
+    padding: 10px;
 }
 
 .attraction {
     flex: 1;
-    border-left: 1px dashed gray;
-    border-right: 1px dashed gray;
+    border: 1px dashed rgb(248, 154, 154);
     text-align: center;
 }
 
@@ -49,23 +54,23 @@ h1,h2,h3,h4,h5,h6 {
     margin: 0.2rem 0.2rem;
 }
 
-.eater {
+#foodTicket, .eater {
     background-color: fuchsia;
-}
+} 
 
-.rider {
+#rideTicket, .rider {
     background-color: dodgerblue;
 }
 
-.bigSpender {
+#fullPackageTicket, .bigSpender {
     background-color: orange;
 }
 
-.player {
+#gameTicket, .player {
     background-color: lawngreen;
 }
 
-.gawker {
+#sideshowTicket, .gawker {
     background-color: firebrick;
 }
 
